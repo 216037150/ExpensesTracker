@@ -1,0 +1,116 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #f1f2f3;
+    color: rgb(111, 109, 109);
+  }
+  
+  .expense {
+    color: rgb(129, 49, 49);
+  }
+  .income {
+    color: rgb(21, 119, 16);
+  }
+  .balance {
+    color: rgb(54, 118, 213);
+  }
+  
+  .app {
+    width: 45rem;
+    height: 100vh;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .displayBox {
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .displayBox .box {
+    flex: 1;
+    text-align: center;
+    border: solid 1px #bdbdbd;
+    padding: 1rem;
+  }
+  
+  .displayBox .box .price {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .input {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .input select {
+    flex: 1;
+    padding: 0.5rem;
+  }
+  .input input {
+    flex: 1;
+    padding: 0.5rem;
+  }
+  
+  #add_btn {
+    background-color: rgb(0, 72, 255);
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  .add {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  table {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .tIncome {
+    background-color: rgba(21, 119, 16, 0.215);
+    color: black;
+  }
+  
+  .tExpense {
+    background-color: rgba(129, 49, 49, 0.261);
+    color: black;
+  }
+  
+  table button {
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+  }
+  
+  

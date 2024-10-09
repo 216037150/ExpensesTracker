@@ -114,3 +114,14 @@
   }
   
   
+  /* media-querry */
+  @media screen and (min-width: 720px) {
+    body {
+    background-color: skyblue;
+    }
+   }@media only screen {
+    .fadeInEffects {
+    display: block;
+    }
+   }
+
